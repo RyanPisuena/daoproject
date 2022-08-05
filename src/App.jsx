@@ -20,7 +20,7 @@ const App = () => {
     );
   }
 
-
+const mySecret = process.env['WALLET_ADDRESS']
   
   return (
     <div className="landing">
